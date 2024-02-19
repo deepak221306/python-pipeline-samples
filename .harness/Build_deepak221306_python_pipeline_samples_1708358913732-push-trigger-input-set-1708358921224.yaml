@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_deepak221306_python_pipeline_samples_1708358913732-push-trigger-input-set
+  identifier: Build_deepak221306_python_pipeline_samples_1708358913732pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_deepak221306_python_pipeline_samples_1708358913732
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
