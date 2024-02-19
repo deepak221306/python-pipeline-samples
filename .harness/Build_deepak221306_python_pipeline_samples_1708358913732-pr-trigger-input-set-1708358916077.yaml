@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_deepak221306_python_pipeline_samples_1708358913732-pr-trigger-input-set
+  identifier: Build_deepak221306_python_pipeline_samples_1708358913732prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_deepak221306_python_pipeline_samples_1708358913732
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
